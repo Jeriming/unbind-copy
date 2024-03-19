@@ -1,0 +1,17 @@
+{
+    "name": "copy-csdn-text",
+    "version": "1.0.1",
+    "manifest_version": 2,
+    "desription": "No login is required to copy",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://blog.csdn.net/*"
+            ],
+            "run_at": "document_idle",
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
