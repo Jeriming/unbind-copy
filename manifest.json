@@ -6,7 +6,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://blog.csdn.net/*"
+                "https://blog.csdn.net/*",
+                "https://*.blog.csdn.net/*"
             ],
             "run_at": "document_idle",
             "js": [
