@@ -10,7 +10,7 @@ script.innerHTML = `
         }
     })
     
-    const arr = document.querySelectorAll("#content_views pre,code");
+    const arr = document.querySelectorAll("#content_views,#content_views pre,code");
     for(let i = 0; i < arr.length; i++) {
         const item = arr[i];
         item.style.userSelect = "text";
